@@ -2,9 +2,15 @@ import {Tilt} from 'react-tilt'
 
 import style from './App.module.css'
 import Card from './components/Card'
+import Menu from './components/Menu'
 import img01 from "./assets/Imgs/img01.jpg"
 import img02 from "./assets/Imgs/img02.jpg"
 import img03 from "./assets/Imgs/img03.jpg"
+import img04 from "./assets/Imgs/img04.jpg"
+import img05 from "./assets/Imgs/img05.jpg"
+import img06 from "./assets/Imgs/img06.jpg"
+import img07 from "./assets/Imgs/img07.jpg"
+
 
 const defaultOptions = {
 	reverse:        true,  // reverse the tilt direction
@@ -20,29 +26,59 @@ const defaultOptions = {
 
 function App() {
   return (
+        <>
+        <Menu/>
     <div className={style.section01}>
       <Tilt options={defaultOptions}>
-      <Card title="Paisagens"
+      <Card title="Peixe tal"
       image={img01}
-      text1="Paisagem Escura e Misteriosa"
-      text2="Curitiba / PR"/>
+      text1="Peixe tal"
+      text2="Mar tal"/>
       </Tilt>
       
       <Tilt options={defaultOptions}>
-      <Card title="Paisagens"
+      <Card title="Peixe tal"
       image={img02}
-      text1="Paisagem Clara e Convidativa"
-      text2="Curitiba / PR"/>  
+      text1="Peixe tal"
+      text2="Mar tal"/>  
       </Tilt>
  
       <Tilt options={defaultOptions}>
-      <Card title="Paisagens"
+      <Card title="Peixe tal"
       image={img03}
-      text1="Paisagem Clara e Gelada"
-      text2="Curitiba / PR"/>   
+      text1="Peixe tal"
+      text2="Mar tal"/>   
       </Tilt>
 
+      <Tilt options={defaultOptions}>
+      <Card title="Peixe tal"
+      image={img04}
+      text1="Peixe tal"
+      text2="Mar tal"/>   
+      </Tilt>
+
+      <Tilt options={defaultOptions}>
+      <Card title="Peixe tal"
+      image={img05}
+      text1="Peixe tal"
+      text2="Mar tal"/>   
+      </Tilt>
+      
+      <Tilt options={defaultOptions}>
+      <Card title="Peixe tal"
+      image={img06}
+      text1="Peixe tal"
+      text2="Mar tal"/>   
+      </Tilt>
+
+      <Tilt options={defaultOptions}>
+      <Card title="Peixe tal"
+      image={img07}
+      text1="Peixe tal"
+      text2="Mar tal"/>   
+      </Tilt>
     </div>
+      </>
     
   )
 }
