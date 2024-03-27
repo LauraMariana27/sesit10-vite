@@ -2,12 +2,12 @@
   background-image: url('assets/Imgs/mar.jpg');
   background-attachment: fixed;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  flex-wrap: wrap;
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
   margin: 1rem;
   gap: 1rem;
 }
