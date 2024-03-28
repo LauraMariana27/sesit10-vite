@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import { Contact } from './Contact.jsx';
+import Calc from './Calc.jsx';
 import './index.css'
 import {
   createBrowserRouter,
@@ -19,7 +20,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/Calc",
-    element: <Whats/>,
+    element: <Calc/>,
   }
 ]);
 

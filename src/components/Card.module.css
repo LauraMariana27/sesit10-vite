@@ -9,5 +9,5 @@
 .card:hover{
     transition: all 200ms ease-in-out;
     transform: scale(1.1);
-    box-shadow: rgba(42, 255, 255, 0.849) 0px 22px 70px 4px;
+    box-shadow: rgba(0, 0, 0, 0.849) 0px 22px 70px 4px;
 }
